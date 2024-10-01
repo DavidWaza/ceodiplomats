@@ -30,7 +30,7 @@ const navItems = [
   {
     id: 3,
     name: "Our Speakers",
-    href: "/volunteer",
+    href: "/#volunteer",
     subNavItems: [],
 
   },
@@ -44,7 +44,7 @@ const navItems = [
   {
     id: 5,
     name: "Events",
-    href: "/events",
+    href: "/#events",
     subNavItems: [
       { id: 1, name: "Events", href: "/events" },
       { id: 2, name: "Events Details", href: "/event-details" },
@@ -53,7 +53,7 @@ const navItems = [
   {
     id: 6,
     name: "Contact",
-    href: "/contact",
+    href: "/#contact",
     subNavItems: [],
   },
 ];
