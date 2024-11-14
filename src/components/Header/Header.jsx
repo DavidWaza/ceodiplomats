@@ -2,9 +2,10 @@
 import React, { useContext, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMicrophone } from "@fortawesome/free-solid-svg-icons";
-
+import Image from "next/image";
 import { useRootContext } from "@/Provider/context";
 import NavItems from "./NavItems";
+import Logo from '../../../src/assets/images/ceo-blue.svg'
 import headerData from "@/data/HeaderData";
 import Link from "next/link";
 import useScroll from "@/hooks/uaeScroll";
@@ -28,8 +29,7 @@ const Header = () => {
       >
         <div className="container-fluid">
           <Link href="/" className="main-header__logo">
-            {/* <Image src={main_logo} width={127} height={49} alt="logo" /> */}
-            CEO DIPLOMATS
+            <Image src={Logo} width={117} height={49} alt="logo" />
           </Link>
 
           <ul className="main-menu__list">

@@ -3,9 +3,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const developData = {
-  tagLine: "What we are",
-  title: "We develop world-class diplomats",
-  text: "CEO Diplomats is a dynamic organization dedicated to developing individuals, teams, and organizations into world-class diplomats, expert negotiators, and visionary leaders. We collaborate with governments, educational institutions, and leading companies to bridge the gap between academic knowledge and real-world application, empowering our partners to excel on the global stage.",
+  tagLine: "Who we are",
+  title: "WHAT YOU STAND TO GAIN",
+  text: "CEO Diplomats is a dynamic organization dedicated to developing individuals, teams, and organizations into world-class diplomats, expert negotiators, and visionary leaders. We collaborate with governments, educational institutions.",
   carouselData: [{
       id: 1,
       link: "donations-details",

@@ -1,6 +1,7 @@
-import cardImage1 from "@/assets/images/volunteers/volunteers-1.jpg";
-import cardImage2 from "@/assets/images/volunteers/volunteers-2.jpg";
-import cardImage3 from "@/assets/images/volunteers/volunteers-3.jpg";
+import cardImage1 from "@/assets/images/speakers/speaker-mich.jpg";
+import cardImage2 from "@/assets/images/speakers/speaker-gad.jpg";
+import cardImage3 from "@/assets/images/speakers/speaker-cole.jpg";
+import cardImage4 from "@/assets/images/speakers/speaker-tosin.jpg";
 import {
   faFacebook,
   faInstagram,

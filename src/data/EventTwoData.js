@@ -18,7 +18,7 @@ const eventTwoData = {
       date: "20 Aug",
       lists: [
         { id: 1, icon: faClock, cont: "8:00 pm" },
-        { id: 2, icon: faMapMarkerAlt, cont: "New York" },
+        { id: 2, icon: faMapMarkerAlt, cont: "Nigeria" },
       ],
       title: "Play for their world with us",
       link: "event-details",
@@ -29,7 +29,7 @@ const eventTwoData = {
       date: "20 Aug",
       lists: [
         { id: 1, icon: faClock, cont: "8:00 pm" },
-        { id: 2, icon: faMapMarkerAlt, cont: "New York" },
+        { id: 2, icon: faMapMarkerAlt, cont: "Nigeria" },
       ],
       title: "Play for their world with us",
       link: "event-details",
@@ -40,7 +40,7 @@ const eventTwoData = {
       date: "20 Aug",
       lists: [
         { id: 1, icon: faClock, cont: "8:00 pm" },
-        { id: 2, icon: faMapMarkerAlt, cont: "New York" },
+        { id: 2, icon: faMapMarkerAlt, cont: "Nigeria" },
       ],
       title: "Play for their world with us",
       link: "event-details",
@@ -51,7 +51,7 @@ const eventTwoData = {
       date: "20 Aug",
       lists: [
         { id: 1, icon: faClock, cont: "8:00 pm" },
-        { id: 2, icon: faMapMarkerAlt, cont: "New York" },
+        { id: 2, icon: faMapMarkerAlt, cont: "Nigeria" },
       ],
       title: "Play for their world with us",
       link: "event-details",
@@ -62,7 +62,7 @@ const eventTwoData = {
       date: "20 Aug",
       lists: [
         { id: 1, icon: faClock, cont: "8:00 pm" },
-        { id: 2, icon: faMapMarkerAlt, cont: "New York" },
+        { id: 2, icon: faMapMarkerAlt, cont: "Nigeria" },
       ],
       title: "Play for their world with us",
       link: "event-details",
@@ -73,7 +73,7 @@ const eventTwoData = {
       date: "20 Aug",
       lists: [
         { id: 1, icon: faClock, cont: "8:00 pm" },
-        { id: 2, icon: faMapMarkerAlt, cont: "New York" },
+        { id: 2, icon: faMapMarkerAlt, cont: "Nigeria" },
       ],
       title: "Play for their world with us",
       link: "event-details",

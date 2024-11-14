@@ -9,11 +9,11 @@ const TinySlider = dynamic(() => import("tiny-slider-react"), {
 });
 
 const settings = {
-  items: 1,
-  gutter: 0,
-  loop: false,
+  items: 3,
+  gutter: 5,
+  loop: true,
   nav: false,
-  autoplay: false,
+  autoplay: true,
   mouseDrag: true,
   touch: false,
   autoplayButtonOutput: false,
@@ -21,6 +21,7 @@ const settings = {
   responsive: {
     0: {
       items: 1,
+      gutter: 30
     },
     576: {
       items: 2,

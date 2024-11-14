@@ -13,7 +13,7 @@ const testimonialOneData = {
   testi3,
   testi4,
   testi5,
-  title: "What they’re \n talking about us",
+  title: "What they \n say about us",
   tagLine: "Our feedbacks",
   text: "Proin a lacus arcu. Nullam id dui eu orci maximus. \n Cras at auctor lectus, pretium tellus.",
   carouselData: [

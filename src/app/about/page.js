@@ -5,7 +5,7 @@ import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import Sponsors from "@/components/Sponsors/Sponsors";
 import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
-import Volunteers from "@/components/Volunteers/Volunteers";
+import Volunteers from "@/components/Speakers/Speakers";
 import React from "react";
 
 export const metadata = {

@@ -3,7 +3,7 @@ import FunFactBg from "@/assets/images/backgrounds/funfact-bg-1-1.jpg";
 const funFactTwoData = {
   FunFactBg,
   tagLine: "Our Impacts",
-  title: "Join your hands with us for \na better life and future",
+  title: "Join hands with us us",
 
   funFactTwoLists: [
     {

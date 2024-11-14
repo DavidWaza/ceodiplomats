@@ -373,6 +373,7 @@ img {
   font-weight: 800;
   letter-spacing: -0.04em;
   color: var(--paroti-black, #144047);
+  text-transform: uppercase;
 }
 
 .preloader-hidden {
@@ -5316,6 +5317,7 @@ img {
 
 .cta-one .sec-title__title {
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .cta-one .sec-title__title span {
