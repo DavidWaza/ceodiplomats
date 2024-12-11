@@ -1,7 +1,7 @@
 'use cient'
 import React from "react";
 import ctaS from "@/assets/images/shapes/cta-s-1-1.png";
-import ctaBg from "@/assets/images/backgrounds/bg-1.jpg";
+import ctaBg from "@/assets/images/backgrounds/background-one.jpg";
 import Link from "next/link";
 import JarallaxImage from "../Jarallax/JarallaxImage";
 import dynamic from "next/dynamic";
@@ -30,12 +30,12 @@ const CtaOne = ({ page }) => {
           </p>
 
           <h2 className='sec-title__title'>
-            How do we achieve this feat?
+            How do we achieve this?
           </h2>
         </div>
 
         <Link className='thm-btn cta-one__btn' href='donations'>
-          <span>Know more</span>
+          <span>Join Now</span>
         </Link>
       </Container>
     </section>

@@ -25,6 +25,10 @@ const ContactUs = () => {
 
   useEffect(() => {
     setIsmounted(true);
+    const timer = setTimeout(() => {
+      setOpen(true);
+    }, 5000)
+    return () => clearTimeout(timer)
   }, []);
 
   if (!isMounted) {

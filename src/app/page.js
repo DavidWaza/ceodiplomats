@@ -20,8 +20,6 @@ export default function Home() {
         <CtaOne />
         <TestimonialOne />
         <ContactUs />
-        {/* <Sponsors /> */}
-        <CampaignNumber />
         <NewsLetterOne />
       </main>
     </Layout>

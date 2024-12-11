@@ -45,11 +45,11 @@ const Header = () => {
               </div>
               <div className="main-menu__cta__text">
                 <span>Join us now</span>
-                <Link href="contact">Become a Speaker</Link>
+                <Link href="contact">Join Now</Link>
               </div>
             </div>
             <Link href="#" className="thm-btn thm-btn--two ">
-              <span>become a speaker</span>
+              <span>join now</span>
               <i>
                 <FontAwesomeIcon
                   icon={faMicrophone}

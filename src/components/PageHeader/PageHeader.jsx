@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "@/assets/images/backgrounds/bg-1.jpg";
+import bg from "@/assets/images/backgrounds/background-two.jpg";
 import { Container } from "react-bootstrap";
 import Link from "next/link";
 

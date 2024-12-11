@@ -3,13 +3,7 @@ import dynamic from "next/dynamic";
 const TinySlider = dynamic(() => import("tiny-slider-react"), {
   ssr: false,
 });
-// import { Swiper, SwiperSlide } from "swiper/react";
 
-// import "./SliderOne.css";
-
-// import required modules
-// import required modules
-// import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Fragment, useEffect, useState } from "react";
 import mainSliderData from "@/data/MainSliderData";
 import { Container } from "react-bootstrap";
@@ -32,7 +26,7 @@ const SliderOne = () => {
     mode: "gallery",
     animateIn: "fadeIn",
     animateOut: "slideOutDown",
-    animateDelay: 5000,
+    animateDelay: 7000,
     autoplayDirection: "backward",
     slideBy: "page",
     nav: true,

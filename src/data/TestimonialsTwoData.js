@@ -1,4 +1,4 @@
-import bg from "@/assets/images/backgrounds/testimonials-2-bg.jpg";
+import bg from "@/assets/images/backgrounds/background-one.jpg";
 import testi1 from "@/assets/images/resources/testi-2-2-1.png";
 import testi2 from "@/assets/images/resources/testi-2-2-2.png";
 import testi3 from "@/assets/images/resources/testi-2-2-3.png";

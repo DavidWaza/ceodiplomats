@@ -5,7 +5,7 @@ import {
 const developData = {
   tagLine: "Who we are",
   title: "WHAT YOU STAND TO GAIN",
-  text: "CEO Diplomats is a dynamic organization dedicated to developing individuals, teams, and organizations into world-class diplomats, expert negotiators, and visionary leaders. We collaborate with governments, educational institutions.",
+  text: "",
   carouselData: [{
       id: 1,
       link: "donations-details",

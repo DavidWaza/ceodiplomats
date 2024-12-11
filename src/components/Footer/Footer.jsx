@@ -25,9 +25,9 @@ const Footer = () => {
               data-aos-delay="000"
             >
               <div className="site-footer__widget site-footer__widget__about">
-                {/* <Link href="/" className="site-footer__widget__logo">
+                <Link href="/" className="site-footer__widget__logo">
                   <Image src={logo} alt="" width={127} height={49} />
-                </Link> */}
+                </Link>
                 <p className="site-footer__widget__text">{about}</p>
               </div>
             </Col>
@@ -95,7 +95,7 @@ const Footer = () => {
             >
               <div className="site-footer__widget site-footer__widget__cta">
                 <h3 className="site-footer__widget__title">
-                  <span>Become a speaker</span>
+                  <span>Join Now</span>
                 </h3>
 
                 <Link

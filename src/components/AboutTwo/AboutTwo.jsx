@@ -64,7 +64,7 @@ const AboutTwo = () => {
               <div className="sec-title">
                 <p className="sec-title__tagline">Welcome to CEO Diplomats</p>
                 <h2 className="sec-title__title">
-                  Center for development advancements
+                  Center for development advancement
                 </h2>
               </div>
 

@@ -1,4 +1,4 @@
-import logo from "@/assets/images/logo-light.png";
+import logo from "@/assets/images/ceo-blue.svg";
 import footerBg from "@/assets/images/backgrounds/footer-bg-1-1.jpg";
 import { icon } from "@fortawesome/fontawesome-svg-core";
 import { faEnvelope, faMobile } from "@fortawesome/free-solid-svg-icons";
