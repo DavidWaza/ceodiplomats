@@ -789,6 +789,82 @@ img {
   }
 }
 
+.figure-img-one {
+  background-image: url('../assets/images/waza.jpg');
+}
+.figure-img-two {
+  background-image: url('../assets/images/waza.jpg');
+}
+
+.container-fluid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:10px
+  
+}
+
+figure {
+  flex: 1 1 auto;
+  min-width: 100%;
+  max-width: 370px; 
+  position: relative;
+}
+
+
+.media {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+figure {
+  height: 370px;
+  overflow: hidden;
+  position: relative;
+}
+figure a {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+figure:hover .media {
+  transform: scale(1.25);
+}
+figcaption {
+  color: #252830;
+  height: calc(100% - 30px);
+  margin: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+.container-details {
+  width: 100%;
+  height: 70px;
+  border-radius: 5px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 0 10px;
+  /* display: flex; */
+  font-size: 18px;
+}
+
+.contact-details {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 5px;
+}
+.designation-details {
+
+}
 .tns-slide-active .slider-one__title {
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -7498,4 +7574,145 @@ img {
   top: 50%;
   z-index: 999;
   color: #fff;
+}
+
+.nav-bar-wrapper {
+  margin-right: auto;
+  margin-left: 0;
+}
+.nav-wrapper {
+  background-color: #2B2738;
+}
+
+.home-link {
+  z-index: 999;
+  cursor: pointer;
+  color: #fff;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;  
+  padding-top: 7px;
+}
+
+.home-link:hover {
+  text-decoration: underline !important;
+}
+.joinus-wrapper {
+  background-color: #F1F6F7;
+  height: 100vh;
+  background-image: url('../assets/images/backgrounds/background-one.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.joinus-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-blend-mode: color-dodge;
+  z-index: 1;
+  background-position: center center;
+  background-color: var(--paroti-black, #009edb);
+  opacity: 0.4;
+}
+
+.joinus-container {
+  position: relative;
+  z-index: 2;
+}
+.joinus-container {
+  background-color: #2B2738;
+  height: auto;
+  padding-top:40px;
+  padding-bottom: 20px;
+  width: 700px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.9
+}
+
+.logo-attr {
+  width: 10%;
+  margin: 0 auto;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  display: flex;
+  justify-content: center;
+  padding-top:2%;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 500px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid var(--paroti-border, #dde8ea);
+  border-radius: 0.25rem;
+  background-color: var(--paroti-gray, #f1f6f7);
+  color: var(--paroti-text, #768385);
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--paroti-primary, #138999);
+  outline: none;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group .form-error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.form-action-button {
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+  border:none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--paroti-primary, #000);
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-action-button:hover {
+  background-color: var(--paroti-secondary, #1b3a5d);
+}
+
+.upload-button {
+  margin-top: -10px !important;
+  border: none;
+  background-color: #10383e;
 }

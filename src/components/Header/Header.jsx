@@ -48,7 +48,7 @@ const Header = () => {
                 <Link href="contact">Join Now</Link>
               </div>
             </div>
-            <Link href="#" className="thm-btn thm-btn--two ">
+            <Link href="/joinNow" className="thm-btn thm-btn--two ">
               <span>join now</span>
               <i>
                 <FontAwesomeIcon
