@@ -7716,3 +7716,9 @@ figcaption {
   border: none;
   background-color: #10383e;
 }
+.speaker {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin: 30px 0;
+}
