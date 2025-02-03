@@ -5,6 +5,8 @@ import testi3 from "@/assets/images/resources/testi-2-3.png";
 import testi4 from "@/assets/images/resources/testi-2-4.png";
 import testi5 from "@/assets/images/resources/testi-2-5.png";
 import itemBg1 from "@/assets/images/shapes/testimonials-item-bg-1-1.png";
+import Logo from "@/assets/images/ceo-blue.svg"
+
 import cardImage1 from "@/assets/images/resources/testimonial-face.jpg";
 const testimonialOneData = {
   bg,
@@ -24,7 +26,7 @@ const testimonialOneData = {
       name: "Michael Jerome",
       desig: "International Relations Expert",
       itemImage: itemBg1,
-      cardImage: cardImage1,
+      cardImage: Logo,
     },
     {
       id: 2,
@@ -33,7 +35,8 @@ const testimonialOneData = {
       name: "Dr. Emily Sanusi",
       desig: "Diplomats",
       itemImage: itemBg1,
-      cardImage: cardImage1,
+      cardImage: Logo,
+
     },
     {
       id: 3,
@@ -42,7 +45,8 @@ const testimonialOneData = {
       name: "Sarah Tosin",
       desig: "Ambassador",
       itemImage: itemBg1,
-      cardImage: cardImage1,
+      cardImage: Logo,
+
     },
   ],
 };

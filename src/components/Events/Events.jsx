@@ -8,10 +8,10 @@ import { Col, Container, Row } from "react-bootstrap";
 const Events = () => {
   const { carouselData } = eventTwoData;
   return (
-    <section className='sec-pad-top sec-pad-bottom'>
+    <section className="sec-pad-top sec-pad-bottom">
       <Container>
-        <Row className='gutter-y-30'>
-          {carouselData.map((data) => (
+        <Row className="gutter-y-30">
+          {/* {carouselData.map((data) => (
             <Col key={data.id} md={12} lg={4}>
               <div className='events-card'>
                 <div className='events-card__image'>
@@ -43,7 +43,8 @@ const Events = () => {
                 </div>
               </div>
             </Col>
-          ))}
+          ))} */}
+          <h1 className="events-text">They&apos;re no current Event(s)</h1>
         </Row>
       </Container>
     </section>

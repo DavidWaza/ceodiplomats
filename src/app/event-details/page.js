@@ -4,8 +4,8 @@ import PageHeader from "@/components/PageHeader/PageHeader";
 import React from "react";
 
 export const metadata = {
-  title: "Event Details || Paroti || Non Profit Charity Nextjs Template",
-  description: "Non Profit Charity Nextjs Template",
+  title: "Event Details",
+  description: "",
 };
 
 const page = () => {

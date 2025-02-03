@@ -2,8 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 import videoOne from "@/data/VideoOne";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";

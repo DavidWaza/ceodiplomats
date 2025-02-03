@@ -10,7 +10,7 @@ import React from "react";
 
 export const metadata = {
   title: "About Page",
-  description: "Non Profit Charity Nextjs Template",
+  description: "",
 };
 
 const page = () => {

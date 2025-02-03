@@ -39,10 +39,19 @@ const JoinUsNow = () => {
             <div className="form-group">
               <input
                 type="text"
-                id="fullName"
-                name="fullName"
+                id="firstName"
+                name="firstName"
                 required
-                placeholder="Full Name"
+                placeholder="First Name"
+              />
+            </div>
+            <div className="form-group">
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                required
+                placeholder="Last Name"
               />
             </div>
             <div className="form-group">
@@ -72,7 +81,7 @@ const JoinUsNow = () => {
                 placeholder="Phone Number"
               />
             </div>
-            <UploadButton
+            {/* <UploadButton
               uploader={uploader}
               options={options}
               className="upload-button"
@@ -92,7 +101,7 @@ const JoinUsNow = () => {
                   Upload your CV
                 </button>
               )}
-            </UploadButton>
+            </UploadButton> */}
             <button type="submit" className="form-action-button">
               Join Now
             </button>

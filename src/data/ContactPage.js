@@ -8,7 +8,7 @@ import {
 const contactPage = {
   tagline: "Contact with us",
   title: "Love to hear from you",
-  text: "Man braid hell of edison bulb four brunch subway tile authentic, chillwave put a bird on church-key try-hard ramps heirloom.",
+  text: "",
   socials: [
     {
       id: 1,

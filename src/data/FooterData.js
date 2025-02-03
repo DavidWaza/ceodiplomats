@@ -19,7 +19,7 @@ const social = [
 const footerData = {
   footerBg,
   logo,
-  about: "Number 12 Lumumbashi wuse zone 4, Abuja Nigeria.",
+  about: "Number 3. Hamid Joda Close, Central Business District, Abuja",
 
   social,
   year: new Date().getFullYear(),
@@ -53,10 +53,10 @@ const footerData = {
     {
       id: 1,
       icon: faEnvelope,
-      title: "ceodiplomats@yahoo.com",
+      title: "info@ceodiplomats.ng",
       subHref: "mailto",
     },
-    { id: 2, icon: faMobile, title: "+234 (0) 9018660095", subHref: "tel" },
+    { id: 2, icon: faMobile, title: "+234 (0) 8037617845", subHref: "tel" },
   ],
 };
 

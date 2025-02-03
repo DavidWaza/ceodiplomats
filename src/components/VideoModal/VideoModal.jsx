@@ -6,14 +6,16 @@ const VideoModal = ({ isOpen, setOpen, id }) => {
   return (
     <>
       {typeof window !== "undefined" && (
-        <ModalVideo
-          channel='youtube'
-          autoplay
-          ratio='16:9'
-          isOpen={isOpen}
-          videoId={id}
-          onClose={() => setOpen(false)}
-        />
+        <div>
+          {/* <ModalVideo
+            channel="youtube"
+            autoplay
+            ratio="16:9"
+            isOpen={isOpen}
+            videoId={id}
+            onClose={() => setOpen(false)}
+          /> */}
+        </div>
       )}
     </>
   );
