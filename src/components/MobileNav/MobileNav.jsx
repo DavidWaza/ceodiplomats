@@ -21,48 +21,48 @@ const MobileNav = () => {
     <div className={`mobile-nav__wrapper ${isExpanded ? "expanded" : ""}`}>
       <div
         onClick={handleToggle}
-        className='mobile-nav__overlay mobile-nav__toggler'
+        className="mobile-nav__overlay mobile-nav__toggler"
       ></div>
-      <div className='mobile-nav__content'>
+      <div className="mobile-nav__content">
         <a
-          href='#'
+          href="#"
           onClick={handleToggle}
-          className='mobile-nav__close mobile-nav__toggler'
+          className="mobile-nav__close mobile-nav__toggler"
         >
           <span></span>
           <span></span>
         </a>
 
-        <div className='logo-box'>
+        <div className="logo-box">
           {/* <Link href='/'>
             <Image width={127} height={49} src={logo_light} alt='Paroti' />
           </Link> */}
           <h1>CEO DIPLOMATS</h1>
         </div>
 
-        <div className='mobile-nav__container'>
-          <ul className='mobile-menu__list'>
+        <div className="mobile-nav__container">
+          <ul className="mobile-menu__list">
             {navItems.map((navItem) => (
               <MobileNavItems key={navItem.id} navItem={navItem} />
             ))}
           </ul>
         </div>
 
-        <ul className='mobile-nav__contact list-unstyled'>
+        <ul className="mobile-nav__contact list-unstyled">
           <li>
             <FontAwesomeIcon icon={faPhone} />
-            <a href='tel:+8898006802'>+234 (0) 9018660095</a>
+            <a href="tel:+8898006802">+234 (0) 8037617845</a>
           </li>
           <li>
             <FontAwesomeIcon icon={faEnvelope} />
-            <a href='mailto:needhelp@company.com'>ceodiplomats@yahoo.com</a>
+            <a href="mailto:needhelp@company.com">info@ceodiplomats.ng</a>
           </li>
           <li>
             <FontAwesomeIcon icon={faMapMarkerAlt} />
-            Number 12 Lumumbashi wuse zone 4, Abuja Nigeria.
+            Number 3. Hamid Joda Close, Central Business District, Abuja
           </li>
         </ul>
-        <ul className='mobile-nav__social'>
+        <ul className="mobile-nav__social">
           {social.map(({ icon, link }, index) => (
             <li key={index}>
               <Link href={link}>

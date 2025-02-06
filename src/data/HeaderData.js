@@ -55,7 +55,7 @@ const navItems = [
 const social = [
   { icon: faTwitter, link: "" },
   { icon: faFacebook, link: "" },
-  { icon: faInstagram, link: "" },
+  { icon: faInstagram, link: "https://www.instagram.com/ceo_diplomats" },
 ];
 
 const headerData = {
