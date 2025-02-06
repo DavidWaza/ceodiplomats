@@ -13,7 +13,7 @@ const social = [
   { icon: "fa-twitter", link: "" },
   { icon: "fa-facebook-square", link: "" },
   { icon: "fa-pinterest-p", link: "" },
-  { icon: "fa-instagram", link: "" },
+  { icon: "fa-instagram", link: "https://www.instagram.com/ceo_diplomats" },
 ];
 
 const footerData = {
@@ -39,7 +39,7 @@ const footerData = {
     {
       id: 4,
       icon: faInstagram,
-      href: "#",
+      href: "https://www.instagram.com/ceo_diplomats",
     },
   ],
   links: [
