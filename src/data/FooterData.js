@@ -19,7 +19,7 @@ const social = [
 const footerData = {
   footerBg,
   logo,
-  about: "Number 3. Hamid Joda Close, Central Business District, Abuja",
+  about: "3 Hamid Joda Close, Central Business District, Abuja",
 
   social,
   year: new Date().getFullYear(),

@@ -4,20 +4,24 @@ import shape2 from "@/assets/images/shapes/about-1-2.png";
 import aboutOne from "@/assets/images/resources/about-diplomats-2.jpg";
 import metaImage from "@/assets/images/resources/about-diplomats-2.jpg";
 
-
 const aboutOneData = {
   shape1,
   shape2,
   aboutOne,
   tagLine: "About CEO DIPLOMATS",
   title:
-    "We are confident that we can develop our diplomats into more effective negotiators",
+    "Welcome to CEO DIPLOMATS",
 
-  aboutTagline: "Ceo Diplomats",
-  text: "The Diplomatic Simulations organized by Best Diplomats provide an unparalleled opportunity for aspiring diplomats to enhance their skills in lobbying, ",
+  aboutTagline: "Center for development advancement",
+  text: ` At CEO DIPLOMATS we believe that diplomacy can be an effective
+                tool for conflict resolution, economic development,
+                environmental protection, human rights advocacy as well as other
+                global concerns. Through our programs we provide training on
+                international law & policy making; intercultural communication;
+                mediation & negotiation skills; public speaking & presentation
+                techniques; leadership development workshops etc.
+              `,
 
-  name: "David Waza",
-  desig: "CEO & CO Founder, CEO Binary Consolidate",
 };
 
 export default aboutOneData;
