@@ -3,8 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Logo from "@/assets/images/ceo-blue.svg"
-
+import Logo from "@/assets/images/ceo-blue.svg";
 
 const AboutOne = () => {
   const {
@@ -33,12 +32,18 @@ const AboutOne = () => {
         <Row>
           <Col lg={6}>
             <div
-              className="about-one__images "
+              className="about-one__images"
               data-aos="fade-right"
               data-aos-easing="linear"
               data-aos-duration="1500"
             >
-              <Image src={Logo} alt="" width={0} height={0} />
+              <Image
+                src={Logo}
+                alt=""
+                width={200}
+                height={200}
+                className="w-32 h-auto object-contain object-center"
+              />
             </div>
           </Col>
           <Col lg={6}>

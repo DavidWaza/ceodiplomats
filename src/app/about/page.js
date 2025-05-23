@@ -18,10 +18,8 @@ const page = () => {
     <Layout>
       <PageHeader title='About Us' />
       <AboutOne />
-      {/* <Sponsors /> */}
       <CtaOne page={true} />
       <FunFactOne />
-      {/* <Volunteers /> */}
       <TestimonialOne page={true} />
     </Layout>
   );
