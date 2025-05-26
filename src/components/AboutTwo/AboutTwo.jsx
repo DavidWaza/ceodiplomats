@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import about2_1 from "@/assets/images/shapes/about-2-1.png";
-import community_development from "@/assets/images/resources/development.jpg";
+import community_development from "@/assets/images/gallery24.jpg";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import CountUp from "react-countup";

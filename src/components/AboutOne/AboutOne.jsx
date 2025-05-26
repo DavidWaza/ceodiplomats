@@ -3,16 +3,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Logo from "@/assets/images/ceo-blue.svg";
+import Logo from "@/assets/images/forum-gallery2.jpg";
 
 const AboutOne = () => {
   const {
-    aboutOne,
-    aboutTwo,
     aboutTagline,
     desig,
-    items,
-    metaImage,
     name,
     shape1,
     shape2,

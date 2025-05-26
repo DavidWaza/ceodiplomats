@@ -1,6 +1,6 @@
 import bg1 from "@/assets/images/backgrounds/background-one.jpg";
-import bg2 from "@/assets/images/backgrounds/background-two.jpg";
-import bg3 from "@/assets/images/backgrounds/background-three.jpg";
+import bg2 from "@/assets/images/t2.jpg";
+import bg3 from "@/assets/images/gallery8.jpg";
 
 const mainSliderData = [
   {
