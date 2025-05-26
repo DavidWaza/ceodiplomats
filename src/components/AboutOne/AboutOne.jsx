@@ -38,7 +38,7 @@ const AboutOne = () => {
                 alt=""
                 width={200}
                 height={200}
-                className="w-32 h-auto object-contain object-center"
+                // className="w-32 h-auto object-contain object-center"
               />
             </div>
           </Col>

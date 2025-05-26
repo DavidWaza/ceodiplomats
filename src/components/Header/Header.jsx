@@ -29,7 +29,7 @@ const Header = () => {
       >
         <div className="container-fluid">
           <Link href="/" className="main-header__logo">
-            <Image src={Logo} width={117} height={49} alt="logo" />
+            <Image src={Logo} width={85} height={49} alt="logo" />
           </Link>
 
           <ul className="main-menu__list">

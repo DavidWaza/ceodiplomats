@@ -5965,7 +5965,7 @@ figcaption {
 @media (max-width: 1200px) {
  .about-one__images img {
   position: relative;
-  width: 50%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
   display: flex;
