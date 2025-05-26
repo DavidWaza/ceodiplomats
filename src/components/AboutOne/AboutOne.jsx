@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Logo from "@/assets/images/forum-gallery2.jpg";
+import ImageOne from "@/assets/images/forum-gallery2.jpg";
 
 const AboutOne = () => {
   const {
@@ -19,10 +19,10 @@ const AboutOne = () => {
   return (
     <section className="sec-pad-top sec-pad-bottom about-one">
       <div className="about-one__shape-1 float-bob-y">
-        <Image src={shape1} alt="" />
+        {/* <Image src={shape1} alt="" /> */}
       </div>
       <div className="about-one__shape-2 float-bob-x">
-        <Image src={shape2} alt="" />
+        {/* <Image src={shape2} alt="" /> */}
       </div>
       <Container>
         <Row>
@@ -34,11 +34,10 @@ const AboutOne = () => {
               data-aos-duration="1500"
             >
               <Image
-                src={Logo}
+                src={ImageOne}
                 alt=""
                 width={200}
                 height={200}
-                // className="w-32 h-auto object-contain object-center"
               />
             </div>
           </Col>
@@ -50,11 +49,7 @@ const AboutOne = () => {
               </div>
               <div className="about-one__tagline">{aboutTagline}</div>
               <p className="about-one__text">{text}</p>
-              <div className="about-one__meta clearfix">
-                <h3 className="about-one__name">{name}</h3>
-
-                <p className="about-one__designation">{desig}</p>
-              </div>
+              
             </div>
           </Col>
         </Row>

@@ -6,9 +6,12 @@ import ScrollTrigger from "react-scroll-trigger";
 import videoOne from "@/data/VideoOne";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import VideoModal from "../VideoModal/VideoModal";
-const { videoInner, videoId, videoOneLists } = videoOne;
+import { useRouter } from "next/navigation";
+
+const { videoInner, videoId } = videoOne;
 const inputs = ["name", "phone", "email", "location", "message"];
 const ContactUs = () => {
+  const router = useRouter();
   const [counterOn, setCounterOn] = useState(false);
   const [isMounted, setIsmounted] = useState(false);
   const [isOpen, setOpen] = useState(false);
@@ -43,7 +46,7 @@ const ContactUs = () => {
                 <div className="video-one__content">
                   <a
                     className="video-one__btn video-popup"
-                    onClick={() => setOpen(true)}
+                    onClick={() => router.push('/events')}
                   >
                     <FontAwesomeIcon icon={faPlay} />
                     <span className="video-one__btn__arrow"></span>

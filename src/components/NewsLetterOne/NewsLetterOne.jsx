@@ -19,7 +19,7 @@ const NewsLetterOne = () => {
       ></div>
 
       <div className="newsletter-one__shape float-bob-x">
-        <Image src={newsLetterOne} alt="" />
+        {/* <Image src={newsLetterOne} alt="" /> */}
       </div>
 
       <Container>

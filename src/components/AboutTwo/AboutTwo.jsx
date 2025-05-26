@@ -12,8 +12,6 @@ const AboutTwo = () => {
   const [counterOn, setCounterOn] = useState(false);
   return (
     <section className="sec-pad-top sec-pad-bottom about-two">
-      <Image src={about2_1} className="about-two__shape-1 float-bob-x" alt="" />
-
       <Container>
         <Row className="gutter-y-60">
           <Col md={12} lg={6}>
@@ -22,9 +20,6 @@ const AboutTwo = () => {
               <div className="about-two__image__shape-1"></div>
               {/* /.about-two__image__shape-1    */}
               <div className="about-two__image__shape-2"></div>
-              {/* /.about-two__image__shape-2    */}
-              <div className="about-two__image__shape-3"></div>
-              {/* /.about-two__image__shape-3    */}
 
               <Image
                 src={community_development}
